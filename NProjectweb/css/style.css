@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+header{
+    background-image: url('../images/bg.jpg');
+    min-height: 450px;
+    padding: 30px 0;
+    background-position: center;
+    background-size: cover;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+    
+}
+
+.logo{
+    position: relative;
+    background-image: url('../images/logo.png');
+    z-index: 2;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 70px;
+    float: left;
+
+}
+.menu-desktop{
+    float: right;
+
+}
+.menu-desktop ul{
+    list-style: none;
+}
+.menu-desktop li{
+    display: inline-block;
+    margin: 0 15px;
+}
+nav.menu-desktop a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Karantina', cursive;
+
+}
+.menu-mobile{
+    float: right;
+    display: none;
+}
+.chamada{
+    padding: 150px 0;
+}
+.chamada p{
+    color: white;
+    font-size: 21px;
+    margin-top: 10px;
+    font-family: 'Karantina', cursive;
+   
+}
+.chamada h2{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+}
+.chamada form{
+    margin-top: 15px;
+}
+.chamada input[type="email"] :focus{outline: 0;}
+
+.chamada input[type="email"]{
+    width: 300px;
+    font-family: 'Comfortaa', cursive;
+    height: 41px;
+    border-radius: 100px;
+    background-color: white;
+    padding-left: 10px;
+    border: 0;
+}
+.chamada input[type="submit"]{
+    width: 180px;
+    font-family: 'Comfortaa', cursive;
+    height: 41px;
+    border-radius: 100px;
+    background-color: rgba(0, 100, 0, 0.7);
+    color: white;
+    cursor: pointer;
+    border: 0;
+}
+.descricao{
+    text-align: center;
+    padding: 30px 0 ;
+}
+.descricao p{
+    font-size: 15px;
+    font-style: italic;
+}
+.descricao b{
+    color: #006400;
+    font-size: 17px;
+}
+.texto-descricao{
+    padding: 0 15px;
+    float: left;
+    width: 50%;
+
+}
+.descricao2 img{
+    width: 40%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.descricao2 h3{
+    color: #31475e;
+    font-size: 25px;
+    line-height: 33px;
+    margin-top: 25px;
+}
+.texto-descricao p{
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+.descricao3{
+    padding: 30px 0 70px;
+}
+.descricao3 .container{
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    position: relative;
+    padding: 350px;
+}
+
+
+
+/* Abaixo teremos o código de responsividade */
+@media screen and (max-width: 1024px){
+    .menu-desktop{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+       
+    }
+    .chamada{
+        text-align: center;
+    }
+    
+    .chamada input[type="email"]{
+        margin-bottom: 10px;
+    }
+
+    .texto-descricao{
+        display: block;
+        width: 100%;
+    }
+}
