@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+header{
+    background-image: url('../images/head.jpg');
+    min-height: 450px;
+    padding: 30px 0;
+    background-position: center;
+    background-size: cover;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+    
+}
+
+.logo{
+    position: relative;
+    background-image: url('../images/logo.png');
+    z-index: 2;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 70px;
+    float: left;
+
+}
+
+.menu-desktop{
+    float: right;
+
+}
+.menu-desktop ul{
+    list-style: none;
+}
+.menu-desktop li{
+    display: inline-block;
+    margin: 0 15px;
+}
+nav.menu-desktop a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Karantina', cursive;
+
+}
+nav.menu-desktop a:hover{
+    color: #8A2BE2;
+}
+
+.menu-mobile{
+    float: right;
+    display: none;
+}
+.menu-mobile ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 70px 0 30px 0;
+    display: none;
+    text-align: center;
+    background-color: #6959CD;
+}
+.menu-mobile a{
+    text-decoration: none;
+    color:white;
+   display: block;
+   font-size: 21px;
+}
+.menu-mobile i{
+    position: relative;
+    z-index: 2;
+}
+.menu-mobile li{
+    padding: 10px 0;
+}
+.chamada{
+    padding: 150px 0;
+}
+.chamada p{
+    color: white;
+    font-size: 21px;
+    margin-top: 10px;
+    font-family: 'Karantina', cursive;
+   
+}
+.chamada h2{
+    color: 	white;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+.chamada form{
+    margin-top: 15px;
+}
+.chamada input[type="email"] :focus{outline: 0;}
+
+.chamada input[type="email"]{
+    width: 300px;
+    font-family: 'Comfortaa', cursive;
+    height: 41px;
+    border-radius: 100px;
+    background-color: white;
+    padding-left: 10px;
+    border: 0;
+}
+.chamada input[type="submit"]{
+    width: 180px;
+    font-family: 'Comfortaa', cursive;
+    height: 41px;
+    border-radius: 100px;
+    background-color: #8A2BE2;
+    color: white;
+    cursor: pointer;
+    border: 0;
+}
+.descricao{
+    text-align: center;
+    padding: 30px 0 ;
+}
+.descricao p{
+    font-size: 15px;
+    font-style: italic;
+}
+.descricao b{
+    color: #006400;
+    font-size: 17px;
+}
+.texto-descricao{
+    
+    padding: 0 15px;
+    float: left;
+    width: 50%;
+
+}
+.texto-descricao p{
+    word-spacing: 1px;
+}
+.descricao2 img{
+    width: 40%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.descricao2 h3{
+    color: 	#4B0082;
+    font-size: 25px;
+    line-height: 33px;
+    margin-top: 25px;
+}
+.texto-descricao p{
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+.descricao3{
+    padding: 30px 0 70px;
+}
+.descricao3 .container{
+    background-image: url(../images/nop.gif);
+    background-size: cover;
+    position: relative;
+    padding: 350px;
+    width: auto;
+    
+}
+.depoimento{
+    position: absolute;
+    left: 60%;
+    max-width: 507px;
+    padding: 40px;
+    bottom: -30px;
+    box-shadow: 0 8px 20px 0 #483D8B;
+    background-color: white;
+}
+.servicos{
+    margin-top: 20px;
+}
+.depoimento p{
+    word-spacing: 1px;
+}
+.depoimento{
+    font-size: 19px;
+    color: black;
+  
+}
+.depoimento b{
+    color: #C71585;
+}
+.titulo-servicos{
+    text-align: center;
+}
+.combo-produtos{
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+.espaco-produtos{
+    display: flex;
+    width: auto;
+    max-width: 30%;
+    padding: 35px;
+   
+}
+.espaco-produtos p{
+    margin: 9px 0;
+}
+.espaco-produtos a{
+    display: inline-block;
+    border:  1px solid #4B0082;
+    font-size: 17px;
+    text-decoration: none;
+    padding:  6px 13px;
+    border-radius: 20px;
+    color: #4B0082;
+}
+.box-produtos p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.box-produtos{
+    border-radius: 3px;
+    box-shadow: 0 8px 20px 0  #6959CD;
+    height: 100%;
+    padding: 10px;
+}
+.formulario{
+    padding: 30px 0;
+}
+.formulario h2{
+    text-align: center;
+}
+.formulario form{
+    margin-top: 10px;
+
+}
+.formulario input[type=text]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black ;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+.formulario textarea{
+
+    width: 100%;
+    height: 130px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black ;
+}
+.formulario input[type=submit]{
+   padding: 15px;
+   width: 130px;
+   background-color: #4B0082;
+   border-radius: 20px;
+   color: white;
+   float: right;
+}
+footer{
+    margin: 50px 0;
+ 
+}
+
+.box-footer{
+    margin: 5px 0 ;
+    float: left;
+    width: 33.33%;
+    padding: 0 15px;
+    
+
+}
+.box-footer p{
+    margin-top: 15px;
+    font-size: 21px;
+    
+}
+
+
+.box-footer input[type ="text"]{
+    width: 80%;
+    padding-left: 10px;
+    max-width: 190px;
+    border-radius: 100px;
+    height: 45px;
+    border: 1px solid black;
+}
+.box-footer button{
+    margin-left: 10px;
+    max-width: 60px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 80%;
+    background-color: #fff;
+    width: 20%;
+    margin-top: 15px;
+
+}
+
+
+
+/* Abaixo teremos o código de responsividade */
+/* Definindo medidas para desktop  */
+@media screen and (max-width: 1024px){
+    .box-footer{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 15px;
+        
+    }
+    .depoimento{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        padding: 30px;
+        width: 90%;
+        transform: translate(-50%, -50%);
+    }
+    .espaco-produtos{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 400px;
+        padding: 10px;
+
+   }
+    .menu-desktop{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+       
+    }
+    .chamada{
+        text-align: center;
+    }
+    
+    .chamada input[type="email"]{
+        margin-bottom: 10px;
+    }
+    
+   
+}
+/* Definindo medidas para celulares  g*/
+@media screen and (max-width: 768px){
+    .texto-descricao{
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    .descricao2 img{
+        width:70%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        max-width: 500px;
+
+    }
+    
+    
+}
+
