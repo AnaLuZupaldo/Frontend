@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pattaya&family=Righteous&display=swap');
+body{
+    background-color: white !important;
+    color: black !important;
+}
+h1{
+    font-family: "Pattaya", sans-serif;
+    
+}
+.login-content{
+    display: flex;
+
+    
+}
+.navbar {
+    --bs-navbar-brand-padding-y: 0 !important;
+    --bs-navbar-padding-y: 0 !important;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.content{
+    align-items: center;
+    text-align: center;
+    margin: 100px !important;
+    padding: 20px;
+}
+form{
+    width: 100% !important;
+}
+input{
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    outline: none !important;
+    width: 100% !important;
+}
+label{
+    font-family: "Montserrat", sans-serif !important;
+}
