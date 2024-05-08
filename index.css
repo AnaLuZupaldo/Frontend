@@ -1,43 +1,187 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pattaya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pattaya&family=Righteous&display=swap');
-body{
-    background-color: white !important;
-    color: black !important;
-}
-h1{
-    font-family: "Pattaya", sans-serif;
-    
-}
-.login-content{
-    display: flex;
 
-    
+body {
+  background-color: white !important;
+  color: black !important;
+  overflow-y: hidden;
 }
+
+h1 {
+  font-family: "Pattaya", sans-serif;
+
+}
+
+.login-content {
+  position: relative;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+
+
+}
+
 .navbar {
-    --bs-navbar-brand-padding-y: 0 !important;
-    --bs-navbar-padding-y: 0 !important;
+  --bs-navbar-brand-padding-y: 0 !important;
+  --bs-navbar-padding-y: 0 !important;
 }
-.form-group{
-    display: flex;
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.content {
+  align-items: center;
+  text-align: center;
+
+}
+
+form {
+
+  width: 65% !important;
+  padding: 30px;
+  text-align: center;
+}
+
+input {
+  border: none !important;
+  border-bottom: 1px solid black !important;
+  outline: none !important;
+  width: 70% !important;
+}
+.mb-3{
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center;
+  text-align: start;
+  
+}
+.alLabel{
+  text-align: left !important;
+}
+
+label {
+  font-family: "Montserrat", sans-serif !important;
+  text-align: left !important;
+ 
+}
+
+.bg-body-tertiary {
+  background-color: transparent !important;
+}
+
+.login-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+
+}
+
+.more-information {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-around;
+
+  
+}
+.link-info{
+  text-decoration: none !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 15px;
+
+
+}
+
+.final-login {
+  display: flex;
+
+}
+
+.btn-dark {
+  --bs-btn-color: #FBBC04 !important;
+  width: 50% !important;
+}
+
+.btn {
+  --bs-btn-font-family: "Righteous", sans-serif !important;
+  --bs-btn-border-radius: none !important;
+}
+
+.blackbox {
+  position: relative;
+  background-color: black !important;
+  width: 30%;
+  height: 100vh;
+}
+
+.login-img {
+  position: relative;
+  left: 5rem;
+  z-index: 1000 !important;
+  border-radius: 10px;
+
+
+}
+.nav-icons{
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.i2{
+  margin-left: 10px
+}
+@media screen and (max-width: 920px) {
+  .login-img{
+    width: 350px;
+  }
+  form{
+    width: 100% !important;
+  }
+  input{
+    width: 100% !important;
+  }
+  .btn-dark{
+
+    width: 85% !important;
+    
+  }
+  .more-information{
     flex-direction: column;
-    text-align: left;
+    margin: 30px;
+  }
 }
-.content{
-    align-items: center;
-    text-align: center;
-    margin: 100px !important;
-    padding: 20px;
+@media screen and (max-width: 730px) {
+  .more-information{
+    flex-direction: column;
+    margin: 30px;
+  }
+  .content{
+    margin-top: 5rem;
+  }
+  .login-img{
+    display: none;
+  }
+  .blackbox{
+    display: none;
+  }
+  .btn-dark{
+
+    width: 85% !important;
+    
+  }
+  .nav-icons{
+    margin: 20px;
+  }
+  
 }
-form{
-    width: 100% !important;
-}
-input{
-    border: none !important;
-    border-bottom: 1px solid black !important;
-    outline: none !important;
-    width: 100% !important;
-}
-label{
-    font-family: "Montserrat", sans-serif !important;
-}
+
